@@ -1,0 +1,37 @@
+*{
+    font-family: 'Slabo 27px', serif;
+    padding: 0;
+    margin: 0;
+}
+.parent{
+    display:flex;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.presentation{
+    width: 60vw;
+    max-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+.presentation h1{
+    margin-bottom: 3vh;
+    transition: all 0.5s;
+}
+.presentation h1:hover{
+    letter-spacing: 12px;
+}
+.name,.bio,.links,.profession{
+    width: 30vw;
+    height: 40vh;
+}
+.presentation .links .socials{
+    display: flex;
+    align-items: center;
+}
+.socials img{
+    width: 2vw;
+    margin-left: 1vw;
+}

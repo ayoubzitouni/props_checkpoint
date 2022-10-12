@@ -1,0 +1,19 @@
+.image{
+    display: flex;
+    align-items: center;
+}
+.image img{
+    width:30vw;
+    
+    box-shadow: rgba(100, 100, 111, 0.8) 0px 7px 29px 0px;
+    border-radius: 5%;
+    mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+    filter: grayscale(100%);
+    transition: all 0.5s;
+}
+.image img:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 50px 50px 0px;
+    mask-image: none;
+    filter: grayscale(0%);
+}
