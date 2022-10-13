@@ -7,12 +7,16 @@ import './profile.css'
 
 const profile = (props) => {
     const styling={width:"5vw",backgroundColor:"blue",height:"6vh",display:"flex",alignItems:"center",justifyContent:"center",margin:"1px",borderRadius:"5%"}
+   console.log(props.handleName)
     return (
             <div className='parent'>
             <div className='presentation'>
                 <div className='name'>
                     <h1>FULL NAME :</h1>
+                    <div>
                     <p>{props.name}</p>
+                    <button onClick={()=>props.handleName(props.name)}>My NAME</button>
+                    </div>
                 </div>
                 <div className='bio'>
                     <h1>BIO :</h1>

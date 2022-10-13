@@ -34,3 +34,18 @@
 .socials img{
     width: 2vw;
 }
+.name div{
+    display: flex;
+    height: calc(100% - 2rem);
+    flex-direction: column;
+    justify-content: space-between;
+}
+.name div button{
+    font-weight: 500;
+    border-radius: 5px;
+    border:none;
+    color: white;
+    background-color: blue;
+    position: botom;
+    width: 100%;
+}
